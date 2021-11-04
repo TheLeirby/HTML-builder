@@ -131,5 +131,6 @@ fs.readdir(assets, (error, dateForAssets) => {
         })
     })
 })
-const process = require('process');process.on('beforeExit', () => {console.log(message);});
+const process = require('process');
+process.on('beforeExit', () => {console.log(message);});
 
